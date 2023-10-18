@@ -5,20 +5,20 @@ import { Link } from 'react-router-dom';
 function NavTabs() {
   const items = [
     {
-      label: 'Home',
+      label: 'About Me',
       to: '/',
     },
     {
-      label: 'About',
-      to: '/About',
-    },
-    {
-      label: 'Blog',
-      to: '/Blog',
+      label: 'Portfolio',
+      to: '/Portfolio',
     },
     {
       label: 'Contact',
       to: '/Contact',
+    },
+    {
+      label: 'Resume',
+      to: '/Resume',
     },
   ];
 
