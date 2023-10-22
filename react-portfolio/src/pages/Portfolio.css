@@ -1,0 +1,45 @@
+.applications {
+    flex: 4;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+} 
+ /* first box that should be bigger */
+.different{
+    position: relative;
+    border-radius: 10px;
+    flex: 0 0 30%;
+    padding: 10px;
+}
+ /* other boxer which have same size */
+.same {
+    position: relative;
+    border-radius: 10px;
+    flex: 0 0 30%;
+    padding: 10px;
+}
+ .different img,
+ .same img {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 10px;
+} 
+.same img:hover{
+    opacity: 0.7;
+}
+.different img:hover{
+    opacity: 0.7;
+}   
+ /* style for the notes on images */
+.bottom-right{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    color: black;
+    border: 1px solid white;
+    border-radius: 20px 0 0 20px;
+    background-color: white;
+    padding: 10px;
+}

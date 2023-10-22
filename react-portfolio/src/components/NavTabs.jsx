@@ -8,7 +8,6 @@ function NavTabs() {
 
   return (
     <div>
-
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <img src={reactLogo} className="logo react" alt="React logo" />
         <h3>Golnaz Berenjian</h3>

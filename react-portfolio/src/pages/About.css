@@ -1,0 +1,27 @@
+.first-part {
+    display: flex;
+    flex-wrap: wrap;
+}
+.info figure img{
+    display: inline;
+    float: left;
+    height:120px;
+    width: 100px;
+    margin-right: 15px;
+    margin-left: 1%;
+    margin-top: 25px;
+}
+.info p {
+    font-family: serif;
+    font-size: larger;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: justify;
+}
+.custom-container-text{
+    margin-top: 7%;
+    border: 1px;
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 2%;
+}
