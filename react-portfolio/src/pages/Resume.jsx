@@ -4,7 +4,7 @@ import React from 'react';
 function Resume() {
   return (
     <div className='container'>
-      <h1>Golnaz Brenjian</h1>
+      <h2>Golnaz Brenjian</h2>
       <p>Email: golnaz.brg@gmail.com</p>
       <p>Phone: (647) 676-6667</p>
 

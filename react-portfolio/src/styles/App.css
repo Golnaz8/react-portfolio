@@ -3,7 +3,7 @@
   margin: 0 auto;
   /* padding: 2rem; */
   text-align: left;
-  background-color:rgb(170, 171, 171);
+  background-color:rgb(136, 154, 128);
 }
 
 .logo {
@@ -21,7 +21,7 @@
 
 .custom-container {
   justify-content: flex-end;
-  background-color: lightgray;
+  background-color: rgba(227, 233, 221, 0.897);
   align-items: center;
   padding: 2%;
 }

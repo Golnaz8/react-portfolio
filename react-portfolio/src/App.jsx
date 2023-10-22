@@ -2,7 +2,7 @@
 import { Outlet } from 'react-router-dom';
 import Nav from './components/NavTabs';
 import './styles/App.css';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 
 function App() {
@@ -14,11 +14,14 @@ function App() {
         <Outlet />
       </main>
       <footer style={{ display: 'flex', justifyContent: 'center', marginTop: '10%', paddingBottom:'3%' }}>
-        <a style={{marginRight: '2%'}} href="https://github.com/golnaz8" target="_blank" rel="noopener noreferrer">
+        <a style={{marginRight: '2%'}} href="https://github.com/golnaz8" target="_blank" rel="my githyb link">
           <FaGithub size={30} />
         </a>
-        <a href="https://www.linkedin.com/in/naz-brj" target="_blank" rel="noopener noreferrer">
+        <a style={{marginRight: '2%'}} href="https://www.linkedin.com/in/naz-brj" target="_blank" rel="my linkedin link">
           <FaLinkedin size={30} />
+        </a>
+        <a href="https://www.facebook.com/golnaz.berenjian" target="_blank" rel="my facebook link">
+          <FaFacebook size={30} />
         </a>
       </footer>
     </>

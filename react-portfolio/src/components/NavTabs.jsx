@@ -19,7 +19,7 @@ function NavTabs() {
               to="/"
               className={currentPage === '/' ? 'nav-link active custom-radius' : 'nav-link'}
             >
-              About Me
+              <strong>About Me</strong>
             </Link>
           </li>
           <li className="nav-item">
@@ -27,7 +27,7 @@ function NavTabs() {
               to="/Portfolio"
               className={currentPage === '/Portfolio' ? 'nav-link active custom-radius' : 'nav-link'}
             >
-              Portfolio
+              <strong>Portfolio</strong>
             </Link>
           </li>
           <li className="nav-item">
@@ -35,7 +35,7 @@ function NavTabs() {
               to="/Contact"
               className={currentPage === '/Contact' ? 'nav-link active custom-radius' : 'nav-link'}
             >
-              Contact
+              <strong>Contact</strong>
             </Link>
           </li>
           <li className="nav-item">
@@ -43,7 +43,7 @@ function NavTabs() {
               to="/Resume"
               className={currentPage === '/Resume' ? 'nav-link active custom-radius' : 'nav-link'}
             >
-              Resume
+              <strong>Resume</strong>
             </Link>
           </li>
         </ul>
