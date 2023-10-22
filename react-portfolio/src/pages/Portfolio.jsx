@@ -8,31 +8,31 @@ function Portfolio() {
       name: 'Recipe-planner',
       link: 'https://golnaz8.github.io/Recipe-Planner/',
       github: 'https://github.com/golnaz8/Recipe-Planner',
-      imageSrc: './src/assets/images/projec1.png',
+      imageSrc: './react-portfolio/src/assets/images/projec1.png',
     },
     {
       name: 'Wealth-tracker',
       link: 'https://boiling-gorge-22354-0c68df1ecb5a.herokuapp.com/',
       github: 'https://github.com/golnaz8/Wealth-Tracker',
-      imageSrc: './src/assets/images/projec2.png',
+      imageSrc: './react-portfolio/src/assets/images/projec2.png',
     },
     {
       name: 'Calculator',
       link: 'https://golnaz8.github.io/challenge1-refactory/',
       github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: './src/assets/images/image.3.png',
+      imageSrc: './react-portfolio/src/assets/images/image.3.png',
     },
     {
       name: 'Shop',
       link: 'https://golnaz8.github.io/challenge1-refactory/',
       github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: './src/assets/images/image.4.png',
+      imageSrc: './react-portfolio/src/assets/images/image.4.png',
     },
     {
       name: 'Educational',
       link: 'https://golnaz8.github.io/challenge1-refactory/',
       github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: './src/assets/images/image.5.png',
+      imageSrc: './react-portfolio/src/assets/images/image.5.png',
     },
   ];
 

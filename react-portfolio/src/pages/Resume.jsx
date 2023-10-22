@@ -6,7 +6,7 @@ function Resume() {
     <div className='container' style={{marginTop: '2%'}}>
       <h2 style={{display: 'inline', marginRight: '3%'}}>Resume:</h2>
       <a 
-        href="./src/assets/resume/Golnaz_Resume.pdf"
+        href="./react-portfolio/src/assets/resume/Golnaz_Resume.pdf"
         className="btn btn-primary"
         download
       >
