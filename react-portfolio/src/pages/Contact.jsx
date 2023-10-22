@@ -56,7 +56,7 @@ function Form() {
 
   return (
     <div className="container">
-      <h1 className='left-space'>Contact Me:</h1>
+      <h2 className='left-space'>Contact Me:</h2>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
           value={name}
