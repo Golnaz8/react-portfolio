@@ -4,9 +4,15 @@
 
 .form input {
     display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 35%;
+}
+.form textarea {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 35%; 
 }
 
 .form button {
@@ -16,4 +22,8 @@
 .error-text {
     display: block;
     text-align: left;
+}
+.left-space{
+    margin-left: 20px;
+    margin-top: 3%;
 }

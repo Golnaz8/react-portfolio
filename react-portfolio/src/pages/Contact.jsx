@@ -55,8 +55,8 @@ function Form() {
   };
 
   return (
-    <div className="container text-center">
-      <h1>Hello {name}</h1>
+    <div className="container">
+      <h1 className='left-space'>Contact Me:</h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <input
           value={name}
@@ -72,12 +72,13 @@ function Form() {
           type="email"
           placeholder="email"
         />
-        <input
+        <textarea
           value={message}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          rows="6" 
         />
         {errorMessage && (
           <div>
