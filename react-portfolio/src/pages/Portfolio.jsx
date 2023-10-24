@@ -1,6 +1,11 @@
 import React from 'react';
 import './Portfolio.css';
 import { FaGithub } from 'react-icons/fa';
+import project1Image from '../../src/assets/images/image1.png';
+import project2Image from '../../src/assets/images/image2.png';
+import project3Image from '../../src/assets/images/image3.png';
+import project4Image from '../../src/assets/images/image4.png';
+import project5Image from '../../src/assets/images/image5.png';
 
 function Portfolio() {
   const applicationData = [
@@ -8,31 +13,31 @@ function Portfolio() {
       name: 'Recipe-planner',
       link: 'https://golnaz8.github.io/Recipe-Planner/',
       github: 'https://github.com/golnaz8/Recipe-Planner',
-      imageSrc: './react-portfolio/src/assets/images/projec1.png',
+      imageSrc: project1Image,
     },
     {
       name: 'Wealth-tracker',
       link: 'https://boiling-gorge-22354-0c68df1ecb5a.herokuapp.com/',
       github: 'https://github.com/golnaz8/Wealth-Tracker',
-      imageSrc: './react-portfolio/src/assets/images/projec2.png',
+      imageSrc: project2Image,
     },
     {
       name: 'Calculator',
       link: 'https://golnaz8.github.io/challenge1-refactory/',
       github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: './react-portfolio/src/assets/images/image.3.png',
+      imageSrc: project3Image,
     },
     {
       name: 'Shop',
       link: 'https://golnaz8.github.io/challenge1-refactory/',
       github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: './react-portfolio/src/assets/images/image.4.png',
+      imageSrc: project4Image,
     },
     {
       name: 'Educational',
       link: 'https://golnaz8.github.io/challenge1-refactory/',
       github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: './react-portfolio/src/assets/images/image.5.png',
+      imageSrc: project5Image,
     },
   ];
 
