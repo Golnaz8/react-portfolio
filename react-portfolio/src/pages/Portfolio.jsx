@@ -5,7 +5,7 @@ import project1Image from '../../src/assets/images/image1.png';
 import project2Image from '../../src/assets/images/image2.png';
 import project3Image from '../../src/assets/images/image3.png';
 import project4Image from '../../src/assets/images/image4.png';
-import project5Image from '../../src/assets/images/image5.png';
+import project5Image from '../../src/assets/images/image9.png';
 
 function Portfolio() {
   const applicationData = [
@@ -22,10 +22,16 @@ function Portfolio() {
       imageSrc: project2Image,
     },
     {
-      name: 'Calculator',
+      name: 'Weather',
+      link: 'https://golnaz8.github.io/challenge6-weather-dashboard/',
+      github: 'https://github.com/Golnaz8/challenge6-weather-dashboard',
+      imageSrc: project3Image,
+    },
+    {
+      name: 'Marketing',
       link: 'https://golnaz8.github.io/challenge1-refactory/',
       github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: project3Image,
+      imageSrc: project5Image,
     },
     {
       name: 'Shop',
@@ -33,12 +39,7 @@ function Portfolio() {
       github: 'https://github.com/golnaz8/Challenge1-refactory',
       imageSrc: project4Image,
     },
-    {
-      name: 'Educational',
-      link: 'https://golnaz8.github.io/challenge1-refactory/',
-      github: 'https://github.com/golnaz8/Challenge1-refactory',
-      imageSrc: project5Image,
-    },
+
   ];
 
   return (
