@@ -1,12 +1,13 @@
 // Resume.js
 import React from 'react';
+import resume from '../../src/assets/resume/resume.pdf'
 
 function Resume() {
   return (
     <div className='container' style={{marginTop: '2%'}}>
       <h2 style={{display: 'inline', marginRight: '3%'}}>Resume:</h2>
       <a 
-        href="./react-portfolio/src/assets/resume/Golnaz_Resume.pdf"
+        href={resume}
         className="btn btn-primary"
         download
       >

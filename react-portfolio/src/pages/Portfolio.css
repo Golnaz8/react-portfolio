@@ -49,3 +49,11 @@
     right: 10px;
     padding: 10px;
 }
+@media screen and (max-width: 768px){
+    .same {
+        flex: 0 0 60%;
+    }
+    .different {
+        flex: 0 0 60%;
+    }
+  }
