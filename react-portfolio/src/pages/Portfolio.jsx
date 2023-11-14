@@ -4,7 +4,7 @@ import { FaGithub } from 'react-icons/fa';
 import project1Image from '../../src/assets/images/image1.png';
 import project2Image from '../../src/assets/images/image2.png';
 import project3Image from '../../src/assets/images/image3.png';
-import project4Image from '../../src/assets/images/image4.png';
+import project4Image from '../../src/assets/images/write-away.png';
 import project5Image from '../../src/assets/images/image9.png';
 
 function Portfolio() {
@@ -34,9 +34,9 @@ function Portfolio() {
       imageSrc: project5Image,
     },
     {
-      name: 'Shop',
-      link: 'https://golnaz8.github.io/challenge1-refactory/',
-      github: 'https://github.com/golnaz8/Challenge1-refactory',
+      name: 'write-away',
+      link: 'https://writeaway-ai-1d0d4bee3d2b.herokuapp.com/',
+      github: '',
       imageSrc: project4Image,
     },
 
